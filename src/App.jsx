@@ -10,14 +10,11 @@ export default function Portfolio() {
     zh: {
       subtitle: "Web3 投机 / 空投玩家",
       about: "实战玩家，专注二级市场、空投策略、DeFi。",
-      contact: "联系",
       email: "邮箱",
     },
     en: {
-      subtitle: "Web3 Investor / Airdrop Player",
+      subtitle: "Web3 Investor / Airdrop Hunter",
       about: "Hands-on player focusing on secondary market, airdrops and DeFi.",
-      results: "Results",
-      contact: "Contact",
       email: "Email",
     },
   };
@@ -31,9 +28,7 @@ export default function Portfolio() {
       <div className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(255,255,255,0.03)_1px,transparent_1px),linear-gradient(rgba(255,255,255,0.03)_1px,transparent_1px)] bg-[size:40px_40px]" />
       <div
         className="pointer-events-none absolute inset-0 opacity-20"
-        style={{
-          backgroundImage: "url('https://grainy-gradients.vercel.app/noise.svg')",
-        }}
+        style={{ backgroundImage: "url('https://grainy-gradients.vercel.app/noise.svg')" }}
       />
 
       {/* Language Switch */}
@@ -75,12 +70,12 @@ export default function Portfolio() {
         <div className="grid gap-10 text-left">
           {/* About */}
           <section className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)] transition">
+            <h2 className="text-xl font-semibold mb-2">About</h2>
             <p className="opacity-80 leading-relaxed">{L.about}</p>
           </section>
 
-          {/* Results */}
+          {/* Airdrop List */}
           <section className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)] transition">
-            <h2 className="text-xl font-semibold mb-2">{L.results}</h2>
             <ul className="opacity-90 space-y-1 list-disc list-inside">
               <li>2022 OP Airdrop ✅</li>
               <li>2023 ARB Airdrop ✅</li>
@@ -89,20 +84,16 @@ export default function Portfolio() {
             </ul>
           </section>
 
-          {/* Contact */}
-          <section className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)] transition">
-            <h2 className="text-xl font-semibold mb-4">{L.contact}</h2>
-
-            <div className="flex items-center justify-center">
-              <a
-                href="mailto:btclyb@gmail.com"
-                className="flex items-center gap-2 text-lg opacity-90 hover:opacity-100 transition"
-              >
-                <Mail size={20} strokeWidth={1.8} className="text-purple-300" />
-                <span>btclyb@gmail.com</span>
-                <span className="text-purple-300">↗</span>
-              </a>
-            </div>
+          {/* Contact — Minimal */}
+          <section className="py-6 text-center">
+            <a
+              href="mailto:btclyb@gmail.com"
+              className="inline-flex items-center gap-2 text-lg text-purple-200 hover:text-purple-300 transition"
+            >
+              <Mail size={18} />
+              btclyb@gmail.com
+              <span className="text-sm opacity-70">↗</span>
+            </a>
           </section>
         </div>
 
