@@ -11,7 +11,6 @@ export default function Portfolio() {
       subtitle: 'Web3 投资者 / 空投玩家',
       about: '实战玩家，专注二级市场、空投策略、DeFi。',
       results: '战绩',
-      tools: '工具',
       notes: '10秒理解：我对今天市场的一句话',
       contact: '联系',
       email: '邮箱',
@@ -91,7 +90,6 @@ export default function Portfolio() {
           {/* Tools */}
           <section className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)] transition">
             <h2 className="text-xl font-semibold mb-2">{L.tools}</h2>
-            <p className="opacity-80">我在用的工具（钱包 / 资讯 / 数据）</p>
           </section>
 
           {/* Notes */}
