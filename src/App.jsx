@@ -82,8 +82,9 @@ export default function Portfolio() {
           <section className="bg-white/5 border border-white/10 rounded-2xl p-6 hover:shadow-[0_0_25px_rgba(168,85,247,0.6)] transition">
             <h2 className="text-xl font-semibold mb-2">{L.results}</h2>
             <ul className="opacity-90 space-y-1 list-disc list-inside">
-              <li>2023 OP Airdrop ✅</li>
-              <li>2024 ARB Airdrop ✅</li>
+              <li>2022 OP Airdrop ✅</li>
+              <li>2023 ARB Airdrop ✅</li>
+              <li>2024  躺平         😁</li>
               <li>2025 Linea Airdrop ✅</li>
             </ul>
           </section>
