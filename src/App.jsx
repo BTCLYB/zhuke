@@ -38,14 +38,27 @@ export default function App() {
             </p>
           </section>
 
-          <section className="bg-white/5 border border-white/10 rounded-2xl p-6">
-            <h2 className="text-xl font-semibold mb-2">Contact</h2>
-            <div className="flex items-center justify-center gap-4 opacity-90">
-              <a className="underline underline-offset-4" href="#" target="_blank" rel="noreferrer">Telegram</a>
-              <span>·</span>
-              <a className="underline underline-offset-4" href="#" target="_blank" rel="noreferrer">X</a>
-            </div>
-          </section>
+         <section className="bg-white/5 border border-white/10 rounded-2xl p-6">
+  <h2 className="text-xl font-semibold mb-2">Contact</h2>
+  <div className="flex flex-col items-center gap-3 opacity-90">
+    <a
+      className="underline underline-offset-4 hover:opacity-100 opacity-80 transition"
+      href="mailto:btclyb@gmail.com"
+    >
+      📩 Email
+    </a>
+
+    <a
+      className="underline underline-offset-4 hover:opacity-100 opacity-80 transition"
+      href="https://t.me/btclyb"
+      target="_blank"
+      rel="noreferrer"
+    >
+      🔗 Telegram
+    </a>
+  </div>
+</section>
+
         </div>
 
         <footer className="pt-4 opacity-60 text-sm">
